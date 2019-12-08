@@ -1,0 +1,21 @@
+<h2>Add a student:</h2>
+<%= form_with(model: [ @course, @course.students.build ], local: true) do |form| %>
+  <p>
+    <%= form.label :first_name %><br>
+    <%= form.text_field :first_name %>
+  </p>
+   <p>
+    <%= form.label :last_name %><br>
+    <%= form.text_field :last_name %>
+  </p>
+ 
+  <p>
+    <%= form.label :email %><br>
+    <%= form.text_field :email %>
+  </p>
+ 
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
