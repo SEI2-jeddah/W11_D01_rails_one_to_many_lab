@@ -10,8 +10,8 @@
 
 Database Columns
 
-- `course_name`, string (e.g. - "WDI")
-- `course_code`, integer (e.g. - 4)
+- `course_name`, string (e.g. - "SEI")
+- `course_code`, integer (e.g. - 3)
 
 
 ### Student
