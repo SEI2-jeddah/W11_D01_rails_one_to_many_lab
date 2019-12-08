@@ -25,4 +25,4 @@ Database Columns
 
 Your `Course` resource should have full CRUD. Your `Student` resource should have Create and Delete functionality.
 
-Instead of the Blog app, create a new `misk_app` like so: `rails new misk_app -d postgresql`
+Instead of the Blog app, create a new `pirates_app` like so: `rails new pirates_app -d postgresql`
